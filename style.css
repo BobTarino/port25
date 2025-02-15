@@ -10,3 +10,13 @@
 body {
     font-family: "Poppins", serif;
 }
+
+html {
+    scroll-behavior: smooth; /* smooth page transition */
+}
+
+p { /* paragraph elements */
+    color: rgb(85, 85, 85);
+}
+
+/* TRANSITION */
