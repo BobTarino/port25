@@ -20,3 +20,8 @@ p { /* paragraph elements */
 }
 
 /* TRANSITION */
+
+a, 
+.btn { /* for all links and buttons - transitions between two states and not be instantaneous */
+    transition: all 300ms ease;
+}
