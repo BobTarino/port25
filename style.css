@@ -85,3 +85,21 @@ a:hover {
     width: 30px;
     cursor: pointer;
 }
+
+.hamburger-icon span {
+    width: 100%; /* 100% of container */
+    height: 2px;
+    background-color: black;
+    transition: all 0.3 ease-in-out; /* hamburger menu turns into "X" when clicked */
+}
+
+.menu-links {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: white;
+    width: fit-content;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3 ease-in-out;
+}
