@@ -146,5 +146,43 @@ a:hover {
     transform: none;
 }
 
-/* https://www.youtube.com/watch?v=ldwlOzRvYOU timestamp: 39:43 */
+/* SECTIONS */
+
+section {
+    padding-top: 4vh; /* vh = view height */
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing:border-box;
+    min-height: fit-content;
+}
+
+.section-container, #profile {
+    display: flex;
+}
+
+/* PROFILE SECTION */
+
+#profile {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
+
+.section_pic-container {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
+.section_pic-container img {
+    border-radius: 50%;
+}
+
+
+
+
+
+/* https://www.youtube.com/watch?v=ldwlOzRvYOU timestamp: 51:25 */
 
