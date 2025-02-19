@@ -210,12 +210,17 @@ section {
     border-radius: 50%;
 }
 
+#profile .section_pic-container img {
+    height: 350px;
+}
+
 /* ICONS */
 
 .icon {
     cursor: pointer;
     height: 2rem;
 }
+
 
 /* BUTTONS */
 
@@ -318,6 +323,7 @@ section {
     width: 400px;
     margin: auto 0;
 }
+
 
 /* EXPERIENCE SECTION */
 
