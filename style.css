@@ -370,6 +370,20 @@ article .icon {
     cursor: default;
 }
 
+.certificate-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.certificate-container .section-container {
+    display: flex;
+    just
+}
+
 /* PROJECTS SECTION */
 
 #projects {
