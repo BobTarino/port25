@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robert Tarino</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Robert Tarino</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about" >About</a></li>
+                <li><a href="#experience" >Experience</a></li>
+                <li><a href="#projects" >Projects</a></li>
+                <li><a href="#contact" >Contact</a></li>
+                <li><a href="https://bobsresume.netlify.app/">Play</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Robert Tarino</div> 
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                <li><a href="https://bobsresume.netlify.app/">Play</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section_pic-container">
+            <img 
+                src="./assets/bobby-prof.JPG" 
+                alt="Robert Tarino profile picture"
+            />
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hello, I'm</p>
+            <h1 class="title">Robert Tarino</h1>
+            <p class="section_text_p2">Developer</p>
+            <div class="btn-container">
+             <button 
+                class="btn btn-color-2" 
+                onclick="window.open('./assets/RJTarino_OfficialResume_2025.pdf')">
+                Download CV
+             </button>
+             <button 
+                class="btn btn-color-1" 
+                onclick="location.href='./#contact'">
+                Contact
+             </button>
+            </div>
+            <div id="socials-container">
+                <img 
+                    src="./assets/linkedin.png" 
+                    alt="My LinkedIn profile" 
+                    class="icon" 
+                    onclick="location.href='https://www.linkedin.com/in/roberttarino/'"
+                />
+                <img 
+                 src="./assets/github.png" 
+                    alt="My Github profile" 
+                    class="icon" 
+                    onclick="location.href='https://github.com/BobTarino'"
+                />
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section_text_p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section_pic-container">
+                <img 
+                    src="./assets/bobby-profpic4.jpg" 
+                    alt="Profile Picture" 
+                    class="about-pic"
+                    style="border-radius: 2rem;"
+                />
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img 
+                            src="./assets/experience.png" 
+                            alt="Experience Icon" 
+                            class="icon" 
+                        />
+                        <h3>Experience</h3>
+                        <p>4+ years <br /> Full Stack Development <br /> Software Testing</p>
+                    </div>
+                    <div class="details-container">
+                        <img 
+                            src="./assets/education.png" 
+                            alt="Education Icon" 
+                            class="icon" 
+                        />
+                        <h3>Education</h3>
+                        <p>Rutgers University - BA in Communication  <br /> University of Utah - Full Stack Developer Certification <br /> AWS Certified Cloud Practitioner </p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        Robert, or "Bobby", (33) is a passionate, hardworking MERN Stack developer who received a certificate for Web Coding from the University of Utah through Trinity Education Services. He has also received a BA degree in Communications at Rutgers University with a minor in Cinema (JavaScripts and Movie Scripts!). 
+                        Bobby is a Jersey boy, born and raised. Currenty residing in Saint Petersbug, Florida, Bobby also spent time in Chicago, where he worked as an MMA instructor and graduated from The Second City Training Center.
+                        Personable, creative, and an excellent public speaker, Robert is ready to join your team! 
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img 
+            src="./assets/arrow.png" 
+            alt="Arrow icon" class="icon arrow" 
+            onclick="location.href='./#experience'"
+        />
+    </section>
+    <section id="experience">
+        <p class="section_text_p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img 
+                                src="./assets/checkmark.png" 
+                                alt="Experience Icon"
+                                class="icon"
+                            />
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                                src="./assets/checkmark.png" 
+                                alt="Experience Icon"
+                                class="icon"
+                            />
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                                src="./assets/checkmark.png" 
+                                alt="Experience Icon"
+                                class="icon"
+                            />
+                            <div>
+                                <h3>Javascript</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                                src="./assets/checkmark.png" 
+                                alt="Experience Icon"
+                                class="icon"
+                            />
+                            <div>
+                                <h3>React JS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                                src="./assets/checkmark.png" 
+                                alt="Experience Icon"
+                                class="icon"
+                            />
+                            <div>
+                                <h3>Next JS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Backend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img 
+                                src="./assets/checkmark.png" 
+                                alt="Experience Icon"
+                                class="icon"
+                            />
+                            <div>
+                                <h3>MYSQL</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                                src="./assets/checkmark.png" 
+                                alt="Experience Icon"
+                                class="icon"
+                            />
+                            <div>
+                                <h3>Redis</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                                src="./assets/checkmark.png" 
+                                alt="Experience Icon"
+                                class="icon"
+                            />
+                            <div>
+                                <h3>Express JS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                                src="./assets/checkmark.png" 
+                                alt="Experience Icon"
+                                class="icon"
+                            />
+                            <div>
+                                <h3>Node JS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                                src="./assets/checkmark.png" 
+                                alt="Experience Icon"
+                                class="icon"
+                            />
+                            <div>
+                                <h3>MongoDB</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                                src="./assets/checkmark.png" 
+                                alt="Experience Icon"
+                                class="icon"
+                            />
+                            <div>
+                                <h3>C++</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Certifications</h2>
+                    <div class="certificate-container">
+                        <div class="section_pic-container">
+                            <img 
+                                src="./assets/aws-certified-cloud-practitioner.png" 
+                                alt="AWS Cert"
+                                class="cert"
+                            />
+                        </div>
+                        <div class="section_pic-container">
+                            <img 
+                                src="./assets/full-stack-coding-utah.png" 
+                                alt="AWS Cert"
+                                class="cert"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img 
+            src="./assets/arrow.png" 
+            alt="Arrow icon" class="icon arrow" 
+            onclick="location.href='./#projects'"
+        />
+    </section>
+    <section id="projects">
+        <p class="section_text_p1">Browse My Recent Projects</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                <div class="article-container">
+                    <img 
+                        src="./assets/entertain_me_photo.png" 
+                        alt="Project 1"
+                        class="project-img"
+                    />
+                </div>
+                <h2 class="experience-sub-title project-title">Entertain Me!</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/BobTarino/entertain-me-redux'">
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://entertain-me-redux.herokuapp.com/'">
+                        Live Demo
+                    </button>
+                </div>
+                </div>
+                <div class="details-container color-container">
+                <div class="article-container">
+                    <img 
+                        src="./assets/tetris_stock.jpg" 
+                        alt="Project 2"
+                        class="project-img"
+                    />
+                </div>
+                <h2 class="experience-sub-title project-title">notTetris</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/BobTarino/tetris'">
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://bobtarino.github.io/tetris/'">
+                        Live Demo
+                    </button>
+                </div>
+                </div>
+            </div>
+        </div>
+        <img 
+            src="./assets/arrow.png" 
+            alt="Arrow icon" class="icon arrow" 
+            onclick="location.href='./#contact'"
+        />
+    </section>
+    <section id="contact">
+        <p class="section_text_p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img 
+                    src="./assets/email.png" 
+                    alt="Email icon"
+                    class="icon contact-icon"
+                />
+                <p><a href="mailto:bob.tarino@gmail.com">bob.tarino@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img 
+                    src="./assets/linkedin.png" 
+                    alt="LinkedIn icon"
+                    class="icon contact-icon"
+                />
+                <p><a href="https://www.linkedin.com/in/roberttarino/">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about" >About</a></li>
+                    <li><a href="#experience" >Experience</a></li>
+                    <li><a href="#projects" >Projects</a></li>
+                    <li><a href="#contact" >Contact</a></li>
+                    <li><a href="https://bobsresume.netlify.app/">Play</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2025 Robert Tarino. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

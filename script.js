@@ -1,3 +1,7 @@
+document.addEventListener("DOMContentLoaded", function(event){
+    document.body.classList.add("loaded");
+});
+
 function toggleMenu() {
     const menu = document.querySelector(".menu-links"); // menu constant targets menu-links element (within hamburger nav element)
     const icon = document.querySelector(".hamburger-icon"); // icon constant targets hamburger-icon element 

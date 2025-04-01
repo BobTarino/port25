@@ -9,6 +9,12 @@
 
 body {
     font-family: "Poppins", serif;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+body.loaded {
+    opacity: 1; /* appended class added by eventlistener page is loaded*/
 }
 
 html {
