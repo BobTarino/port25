@@ -381,7 +381,13 @@ article .icon {
 
 .certificate-container .section-container {
     display: flex;
-    just
+    justify-content: center;
+    align-items: center;
+}
+
+.cert {
+    height: auto;
+    border-radius: 8px;
 }
 
 /* PROJECTS SECTION */
